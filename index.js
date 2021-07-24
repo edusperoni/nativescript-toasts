@@ -1,5 +1,5 @@
-var app = require("tns-core-modules/application");
-var frameModule = require("tns-core-modules/ui/frame");
+var app = require("@nativescript/core").Application;
+var frameModule = require("@nativescript/core").Frame;
 
 /**
  * The time duration for which toast will be displayed on the screen
